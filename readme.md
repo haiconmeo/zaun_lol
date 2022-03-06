@@ -4,3 +4,5 @@
 - khởi động lol clien
 - chạy scpit 
     python tool_sn_2022.py
+    
+    Xem thêm ở đây https://haiconmeo.pw/posts/25
