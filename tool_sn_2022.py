@@ -59,14 +59,11 @@ if __name__ == '__main__':
     print('Your token: ', token)
     for code in codes:
         try:
-            print(code)
-            
+            print(code)            
             res = run_scrip(code.strip(), token)
             print(res)
             if   'error' in res and res['error'] =="ERROR__INVITEE_LIMIT" :
                 print('INVITEE_LIMIT')
                 break
-
-
         except Exception as e:
             print(traceback.format_exc())
